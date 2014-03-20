@@ -5,7 +5,8 @@ import java.util.Random;
 public class Numbers {
 	
 public Random rand;
-public int numOne, numTwo, numSum;	
+public int numOne, numTwo, numSum;
+public float woof = 22.2f;
 
 public int genNums() {
 	
@@ -15,6 +16,13 @@ public int genNums() {
 	numSum = numOne + numTwo;
 	
 	return numSum;
+}
+
+public boolean soo() {
+	if (woof == 22.2f) {
+	return true;
+}
+else {return false;}
 }
 
 }
